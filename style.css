@@ -1,0 +1,78 @@
+/*Zerar Página*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('fundo.jpg');
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+    display: flex;
+    /*viewport height*/
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 30px;
+
+    /*FUNDO*/
+    background-color: #030637;
+    border: 2px solid #3C0753;
+    border-radius: 15px;
+    gap: 10px;
+
+}
+
+.titulo-login {
+    font-size: 10px;
+    font-weight: 800;
+    padding-bottom: 10px;
+
+    display: flex;
+
+
+
+}
+
+.campo-login {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+input {
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+.botao {
+    /*CENTRALIZAR*/
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    margin: 10px;
+
+    /*TAMANHO E DETALHES*/
+    background-color: #720455;
+    border: 3px outset #720455;
+    border-radius: 5px;
+
+    /*FONTE*/
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: palevioletred;
+
+}
